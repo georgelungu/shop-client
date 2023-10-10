@@ -9,3 +9,8 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+module.exports = {
+  swcMinify: false, // Disable SWC minification
+  // Other Next.js configuration options...
+};
